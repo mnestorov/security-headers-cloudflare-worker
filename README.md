@@ -1,6 +1,6 @@
 # Security Headers for Cloudflare Worker
 
-There are headers like **Content Security Policy**, **Strict Transport Security**, **Referrer Policy** and several more. Each of them serve a specific function and allow you as a website operator to ensure a safer browsing experience for your visitors.
+There are headers like **[Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)**, **[Strict Transport Security](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security)**, **[Referrer Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy)** and several more. Each of them serve a specific function and allow you as a website operator to ensure a safer browsing experience for your visitors.
 
 To set a security header on one of your responses you generally need to be able to access server configuration or possibly application code to insert it from there. These are levels of access that are not always available to you on certain hosting platforms.
 
@@ -61,3 +61,17 @@ async function addHeaders(req) {
 }
 
 ```
+
+## Useful links
+
+[More information about Security Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers#security)
+
+[Content Security Policy (CSP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)
+
+[Strict-Transport-Security](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security)
+
+[Referrer-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy)
+
+## Articles
+
+[Introducing Cloudflare Workers: Run JavaScript Service Workers at the Edge](https://blog.cloudflare.com/introducing-cloudflare-workers/)
