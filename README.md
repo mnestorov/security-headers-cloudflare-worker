@@ -20,7 +20,7 @@ This project demonstrates how to utilize Workers to improve your site's security
 
 ### Installing Wrangler
 
-To manage Cloudflare Workers, you first need to install Wrangler, Cloudflare's official CLI for working with Workers:
+To manage Cloudflare Workers, you first need to install [Wrangler](https://developers.cloudflare.com/workers/wrangler/), Cloudflare's official CLI for working with Workers:
 
 ```bash
 npm install -g @cloudflare/wrangler
@@ -129,6 +129,7 @@ sanitiseHeaders['Server'] = 'SecureServer';
 - [Strict-Transport-Security](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security)
 - [Referrer-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy)
 - [Introducing Cloudflare Workers: Run JavaScript Service Workers at the Edge](https://blog.cloudflare.com/introducing-cloudflare-workers/)
+- [Cloudflare Docs - Workers](https://developers.cloudflare.com/workers/)
 
 ---
 
